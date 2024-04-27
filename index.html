@@ -13,11 +13,11 @@
       <table class="table is-striped is-fullwidth">
          <tbody><tr>
             <td>端末情報</td>
-            <td id="device">$("#date").text(new Date().toLocalString());</td>
+            <td id="device"></td>
           </tr>
           <tr>
             <td>閲覧日時</td>
-            <td id="date">$("device").text(platform.description)</td>
+            <td id="date"></td>
           </tr>
         </tbody>
         </tbody></table>
@@ -38,4 +38,11 @@
       <td>ichiruchiru610@gmail.com</td>
     </tr>
   </table>
+
+    </section>
+       $("#device").text(platform.description);
+      $("#date").text(new Date().toLocaleString("ja-JP"));
+      </script>
+  </body>
+</html>
    
